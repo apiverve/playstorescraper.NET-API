@@ -1,0 +1,38 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <Nullable>enable</Nullable>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <Title>APIVerve.API.PlayStoreScraper</Title>
+    <Version>1.0.0</Version>
+    <Authors>APIVerve</Authors>
+    <Company>APIVerve</Company>
+    <PackageLicenseFile>LICENSE</PackageLicenseFile>
+    <PackageRequireLicenseAcceptance>False</PackageRequireLicenseAcceptance>
+    <PackageReadmeFile>Readme.md</PackageReadmeFile>
+    <PackageProjectUrl>https://apiverve.com/marketplace/api/playstorescraper</PackageProjectUrl>
+    <SignAssembly>False</SignAssembly>
+    <Description>Play Store Scraper is a simple tool for scraping app store data. It returns the app name, description, price, and more.</Description>
+    <RepositoryUrl>https://github.com/apiverve/playstorescraper-NET</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>play store; app store; app data; app store data; app store scraper; play store scraper; app store api; play store api; app store data scraper; play store data scraper; app store data api; play store data api; app store data extraction; play store data extraction; app store data extraction api; play store data extraction api; app store data extraction tool; play store data extraction tool; app store data extraction software; play store data extraction software; app store data extraction service; play store data extraction service; app store data extraction library; play store data extraction library; app store data extraction sdk; play store data extraction sdk; app store data extraction library; play store data extraction library; app store data extraction sdk; play store data extraction sdk; app store data extraction library; play store data extraction library; app store data extraction sdk; play store data extraction sdk; app store data extraction library; play store data extraction library; app store data extraction sdk; play store data extraction sdk</PackageTags>
+    <Copyright>©2024 APIVerve. All Rights Reserved</Copyright>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="LICENSE">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+    <None Update="Readme.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>
