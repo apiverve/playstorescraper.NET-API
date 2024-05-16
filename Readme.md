@@ -83,7 +83,7 @@ var response = apiClient.Execute(queryOptions);
 if(response.error != null) {
 	Console.WriteLine(response.error);
 } else {
-    var jsonResponse = JsonConvert.SerializeObject(response.data, Newtonsoft.Json.Formatting.Indented);
+    var jsonResponse = JsonConvert.SerializeObject(response, Newtonsoft.Json.Formatting.Indented);
     Console.WriteLine(jsonResponse);
 }
 ```
@@ -101,17 +101,17 @@ if(response.error != null) {
     "summary": "Real-time GPS navigation &amp; local suggestions for food, events, &amp; activities",
     "installs": "10,000,000,000+",
     "minInstalls": 10000000000,
-    "maxInstalls": 15444944180,
-    "score": 3.9553034,
+    "maxInstalls": 15462393798,
+    "score": 3.9541585,
     "scoreText": "4.0",
-    "ratings": 17863509,
-    "reviews": 643588,
+    "ratings": 17870789,
+    "reviews": 643797,
     "histogram": {
-      "1": 2991705,
-      "2": 930684,
-      "3": 1094407,
-      "4": 1714236,
-      "5": 11132460
+      "1": 2996457,
+      "2": 931970,
+      "3": 1097081,
+      "4": 1714067,
+      "5": 11131190
     },
     "price": 0,
     "free": true,
@@ -174,7 +174,7 @@ if(response.error != null) {
     ],
     "contentRating": "Everyone",
     "adSupported": true,
-    "updated": 1715270378000,
+    "updated": 1715739035000,
     "version": "VARY",
     "recentChanges": "Thanks for using Google Maps! This release brings bug fixes that improve our product to help you discover new places and navigate to them.<br><br>Become a beta tester: http://goo.gl/vLUcaJ",
     "comments": [
@@ -182,7 +182,7 @@ if(response.error != null) {
       "Maps is great but a few things I've noticed are: If there is a toll, like the GW bridge, you have to constantly FIGHT it to not bring you over the bridge or else it reroutes you, even if there is a better route! Second; In 2024 I imagined I'd be able to drop a pin while in navigation, I've seen iphone users be able to do it but not on androids. Last; not able to back out of maps easily anymore because it clears the menu bar at the bottom to be able to do so.",
       "It seems like in the last couple of months, maps has gone back 10 versions. Music shows up only 50% of the time. When it does, you're no longer able to use the music functions that once existed. The x to exit navigation but stay within the app hardly works anymore. I have to force close the app just to change navigation now. Considering choosing a different app here soon.",
       "I can't be the only person who uses Maps primarily as a navigation tool, and only secondarily as a local map when searching for nearby places & experiences. The new interface is frustratingly slow for its primary purpose; navigation / route viewing are hidden behind too many clicks. P.s. Two months ago the app was perfect. No features were added as far as I can tell, there was only a decrease in functionality and performance.",
-      "The timeline is inaccurate. It mixes up days and frequently shows trips from the previous day and is unreliable on the time windows. I used to have trouble with navigation on one way streets, but have not been in the same area, so cannot be sure if that was fixed. Apart from these, the actual navigation directions are pretty good with lane recommendations. The map contrast could be better to show road boundaries more effectively. Hate the contributor badge that forces to post photos to advance."
+      "The latest update is terrible. I go hiking at a wildlife management area, and for the past two years, Maps has shown me the same directions. Today, it gave me three completely different routes. One was partially the same as my old one, but then it veered off and went on a bunch of random roads. At one point, it wanted me to take a side road that did nothing but come right out and connect back to the road I was already on. I want my old route back!"
     ],
     "appId": "com.google.android.apps.maps",
     "url": "https://play.google.com/store/apps/details?id=com.google.android.apps.maps&hl=en&gl=us"
