@@ -23,6 +23,16 @@ public class histogram
 
 }
 
+public class categories
+{
+    [JsonProperty("name")]
+    public string name { get; set; }
+
+    [JsonProperty("id")]
+    public string id { get; set; }
+
+}
+
 public class data
 {
     [JsonProperty("title")]
@@ -85,6 +95,9 @@ public class data
     [JsonProperty("androidVersionText")]
     public string androidVersionText { get; set; }
 
+    [JsonProperty("androidMaxVersion")]
+    public string androidMaxVersion { get; set; }
+
     [JsonProperty("developer")]
     public string developer { get; set; }
 
@@ -112,6 +125,9 @@ public class data
     [JsonProperty("genreId")]
     public string genreId { get; set; }
 
+    [JsonProperty("categories")]
+    public categories[] categories { get; set; }
+
     [JsonProperty("icon")]
     public string icon { get; set; }
 
@@ -137,7 +153,16 @@ public class data
     public string recentChanges { get; set; }
 
     [JsonProperty("comments")]
-    public string[] comments { get; set; }
+    public object[] comments { get; set; }
+
+    [JsonProperty("preregister")]
+    public bool preregister { get; set; }
+
+    [JsonProperty("earlyAccessEnabled")]
+    public bool earlyAccessEnabled { get; set; }
+
+    [JsonProperty("isAvailableInPlayPass")]
+    public bool isAvailableInPlayPass { get; set; }
 
     [JsonProperty("appId")]
     public string appId { get; set; }
