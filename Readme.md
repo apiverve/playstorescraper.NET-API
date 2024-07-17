@@ -101,17 +101,17 @@ if(response.error != null) {
     "summary": "Real-time GPS navigation &amp; local suggestions for food, events, &amp; activities",
     "installs": "10,000,000,000+",
     "minInstalls": 10000000000,
-    "maxInstalls": 15462393798,
-    "score": 3.9541585,
-    "scoreText": "4.0",
-    "ratings": 17870789,
-    "reviews": 643797,
+    "maxInstalls": 15881938489,
+    "score": 3.9253075,
+    "scoreText": "3.9",
+    "ratings": 18037987,
+    "reviews": 647852,
     "histogram": {
-      "1": 2996457,
-      "2": 931970,
-      "3": 1097081,
-      "4": 1714067,
-      "5": 11131190
+      "1": 3130645,
+      "2": 972009,
+      "3": 1127659,
+      "4": 1691316,
+      "5": 11116333
     },
     "price": 0,
     "free": true,
@@ -121,6 +121,7 @@ if(response.error != null) {
     "offersIAP": false,
     "androidVersion": "VARY",
     "androidVersionText": "Varies with device",
+    "androidMaxVersion": "VARY",
     "developer": "Google LLC",
     "developerId": "5700313618786177705",
     "developerEmail": "apps-help@google.com",
@@ -130,6 +131,12 @@ if(response.error != null) {
     "developerInternalID": "5700313618786177705",
     "genre": "Travel & Local",
     "genreId": "TRAVEL_AND_LOCAL",
+    "categories": [
+      {
+        "name": "Travel & Local",
+        "id": "TRAVEL_AND_LOCAL"
+      }
+    ],
     "icon": "https://play-lh.googleusercontent.com/Kf8WTct65hFJxBUDm5E-EpYsiDoLQiGGbnuyP6HBNax43YShXti9THPon1YKB6zPYpA",
     "headerImage": "https://play-lh.googleusercontent.com/FQx43QTaAqeOtoTLylK3WIs7ySKuGS8AurXNA1Kj34m6w6CjavF4Oj3s5DB6xZZ7DS63",
     "screenshots": [
@@ -174,16 +181,15 @@ if(response.error != null) {
     ],
     "contentRating": "Everyone",
     "adSupported": true,
-    "updated": 1715739035000,
+    "updated": 1721129610000,
     "version": "VARY",
     "recentChanges": "Thanks for using Google Maps! This release brings bug fixes that improve our product to help you discover new places and navigate to them.<br><br>Become a beta tester: http://goo.gl/vLUcaJ",
     "comments": [
-      "The \"immersive view\" gets in the way. Normally, I could access street view by clicking the window on the left of the screen. But now, the immersive view is there and there's no way to change it back! Most of the time, immersive view has areas that literally look like a pile of pixels or just blocks of concrete. I can't view details of buildings or signs like business names. In order to still access street view, I have to click on \"steps\" to pull that up! At least make it easy to disable!",
-      "Maps is great but a few things I've noticed are: If there is a toll, like the GW bridge, you have to constantly FIGHT it to not bring you over the bridge or else it reroutes you, even if there is a better route! Second; In 2024 I imagined I'd be able to drop a pin while in navigation, I've seen iphone users be able to do it but not on androids. Last; not able to back out of maps easily anymore because it clears the menu bar at the bottom to be able to do so.",
-      "It seems like in the last couple of months, maps has gone back 10 versions. Music shows up only 50% of the time. When it does, you're no longer able to use the music functions that once existed. The x to exit navigation but stay within the app hardly works anymore. I have to force close the app just to change navigation now. Considering choosing a different app here soon.",
-      "I can't be the only person who uses Maps primarily as a navigation tool, and only secondarily as a local map when searching for nearby places & experiences. The new interface is frustratingly slow for its primary purpose; navigation / route viewing are hidden behind too many clicks. P.s. Two months ago the app was perfect. No features were added as far as I can tell, there was only a decrease in functionality and performance.",
-      "The latest update is terrible. I go hiking at a wildlife management area, and for the past two years, Maps has shown me the same directions. Today, it gave me three completely different routes. One was partially the same as my old one, but then it veered off and went on a bunch of random roads. At one point, it wanted me to take a side road that did nothing but come right out and connect back to the road I was already on. I want my old route back!"
+      null
     ],
+    "preregister": false,
+    "earlyAccessEnabled": false,
+    "isAvailableInPlayPass": false,
     "appId": "com.google.android.apps.maps",
     "url": "https://play.google.com/store/apps/details?id=com.google.android.apps.maps&hl=en&gl=us"
   }
