@@ -32,9 +32,9 @@ From within Visual Studio:
 
 1. Open the Solution Explorer.
 2. Right-click on a project within your solution.
-3. Click on Manage NuGet Packages...
+3. Click on Manage NuGet Packages..
 4. Click on the Browse tab and search for "APIVerve.API.PlayStoreScraper".
-5. Click on the APIVerve.API.PlayStoreScraper package, select the appropriate version in the right-tab and click Install.
+5. Click on the APIVerve.API.PlayStoreScraper package, click Install.
 
 
 ---
@@ -101,17 +101,17 @@ if(response.error != null) {
     "summary": "Real-time GPS navigation &amp; local suggestions for food, events, &amp; activities",
     "installs": "10,000,000,000+",
     "minInstalls": 10000000000,
-    "maxInstalls": 16184591227,
-    "score": 3.883259,
-    "scoreText": "3.9",
-    "ratings": 18173103,
-    "reviews": 651787,
+    "maxInstalls": 17346799843,
+    "score": 3.6164036,
+    "scoreText": "3.6",
+    "ratings": 18631588,
+    "reviews": 664596,
     "histogram": {
-      "1": 3287718,
-      "2": 1037211,
-      "3": 1181692,
-      "4": 1668710,
-      "5": 10997748
+      "1": 4783186,
+      "2": 977263,
+      "3": 1102974,
+      "4": 1508081,
+      "5": 10260068
     },
     "price": 0,
     "free": true,
@@ -127,6 +127,10 @@ if(response.error != null) {
     "developerEmail": "apps-help@google.com",
     "developerWebsite": "http://maps.google.com/about/",
     "developerAddress": "1600 Amphitheatre Parkway, Mountain View 94043",
+    "developerLegalName": "Google LLC",
+    "developerLegalEmail": "support@google.com",
+    "developerLegalAddress": "1600 Amphitheatre Pkwy, Mountain View, CA 94043, United States",
+    "developerLegalPhoneNumber": "+1 650-253-0000",
     "privacyPolicy": "http://www.google.com/policies/privacy",
     "developerInternalID": "5700313618786177705",
     "genre": "Travel & Local",
@@ -181,7 +185,7 @@ if(response.error != null) {
     ],
     "contentRating": "Everyone",
     "adSupported": true,
-    "updated": 1724892497000,
+    "updated": 1739951971000,
     "version": "VARY",
     "recentChanges": "Thanks for using Google Maps! This release brings bug fixes that improve our product to help you discover new places and navigate to them.<br><br>Become a beta tester: http://goo.gl/vLUcaJ",
     "comments": [],
@@ -217,7 +221,7 @@ All usage of the APIVerve website, API, and services is subject to the [APIVerve
 ## License
 Licensed under the The MIT License (MIT)
 
-Copyright (&copy;) 2024 APIVerve, and Evlar LLC
+Copyright (&copy;) 2025 APIVerve, and EvlarSoft LLC
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
