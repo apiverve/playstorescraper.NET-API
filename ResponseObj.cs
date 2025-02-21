@@ -113,6 +113,18 @@ public class data
     [JsonProperty("developerAddress")]
     public string developerAddress { get; set; }
 
+    [JsonProperty("developerLegalName")]
+    public string developerLegalName { get; set; }
+
+    [JsonProperty("developerLegalEmail")]
+    public string developerLegalEmail { get; set; }
+
+    [JsonProperty("developerLegalAddress")]
+    public string developerLegalAddress { get; set; }
+
+    [JsonProperty("developerLegalPhoneNumber")]
+    public string developerLegalPhoneNumber { get; set; }
+
     [JsonProperty("privacyPolicy")]
     public string privacyPolicy { get; set; }
 
